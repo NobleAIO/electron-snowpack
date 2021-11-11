@@ -1,5 +1,5 @@
 {
-  "name": "@noble/electron-snowpack",
+  "name": "@incizzle/electron-snowpack",
   "version": "0.13.0",
   "description": "Effective Electron app development with Snowpack and esbuild",
   "keywords": [
@@ -32,5 +32,5 @@
   "peerDependencies": {
     "electron": "*"
   },
-  "gitHead": "0aa27e7b3e5e68b3ba32ea4f305d51d344e0670e"
+  "gitHead": "94ff0405203ff092d9527454c15be6cb53da4b0a"
 }
