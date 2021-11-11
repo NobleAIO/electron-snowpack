@@ -30,7 +30,7 @@ module.exports = async (more) => {
   return {
     platform: 'node',
     format: 'cjs',
-    entryPoints: await promisify(glob)('src/main/@(index|preload).[jt]s'),
+    entryPoints: await promisify(glob)('src/main/@(index|preload|solver).[jt]s'),
     outdir: path.join(config.outputDir, 'main'),
     bundle: true,
     external: ['electron'],

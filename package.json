@@ -1,5 +1,5 @@
 {
-  "name": "electron-snowpack",
+  "name": "@noble/electron-snowpack",
   "version": "0.0.0",
   "private": true,
   "keywords": [
@@ -7,7 +7,7 @@
     "snowpack",
     "esbuild"
   ],
-  "repository": "karolis-sh/electron-snowpack",
+  "repository": "NobleAIO/electron-snowpack",
   "license": "MIT",
   "author": "Karolis Šarapnickis",
   "workspaces": [
