@@ -1,5 +1,5 @@
 {
-  "name": "electron-snowpack",
+  "name": "@noble/electron-snowpack",
   "version": "0.12.1",
   "description": "Effective Electron app development with Snowpack and esbuild",
   "keywords": [
@@ -7,7 +7,7 @@
     "snowpack",
     "esbuild"
   ],
-  "repository": "karolis-sh/electron-snowpack",
+  "repository": "NobleAIO/electron-snowpack",
   "license": "MIT",
   "author": "Karolis Šarapnickis",
   "main": "index.js",
@@ -31,5 +31,6 @@
   },
   "peerDependencies": {
     "electron": "*"
-  }
+  },
+  "gitHead": "0aa27e7b3e5e68b3ba32ea4f305d51d344e0670e"
 }

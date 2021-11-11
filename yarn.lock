@@ -3760,6 +3760,25 @@ electron-publish@22.10.5:
     lazy-val "^1.0.4"
     mime "^2.5.0"
 
+electron-snowpack@*:
+  version "0.12.0"
+  resolved "https://registry.npmjs.org/electron-snowpack/-/electron-snowpack-0.12.0.tgz#52a36d0792ed17972a826ba8b9971d5cbb36a128"
+  integrity sha512-k8HFcZ1AJEj5IzKOIjyjfYbm53F1JSHLlclBprN0hjT1DK+Fdk7PzQth0Fvmcc1mV+dFFBvhPPV4gPtyP1vmcA==
+  dependencies:
+    "@snowpack/plugin-dotenv" "^2.1.0"
+    "@snowpack/plugin-typescript" "^1.2.1"
+    builtin-modules "^3.2.0"
+    chalk "^4.1.1"
+    commander "^8.0.0"
+    dotenv "^10.0.0"
+    dotenv-expand "^5.1.0"
+    esbuild "^0.12.15"
+    execa "^5.1.1"
+    glob "^7.1.7"
+    rimraf "^3.0.2"
+    signal-exit "^3.0.3"
+    snowpack "^3.8.2"
+
 electron@12.0.5:
   version "12.0.5"
   resolved "https://registry.npmjs.org/electron/-/electron-12.0.5.tgz#005cf4375d2ee4563f5e75dc4da4ef871846a8be"
