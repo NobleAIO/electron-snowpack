@@ -1,4 +1,6 @@
 const path = require('path');
+const { promisify } = require('util');
+const glob = require('glob');
 
 const config = require('../config');
 
@@ -28,7 +30,7 @@ module.exports = async (more) => {
   return {
     platform: 'node',
     format: 'cjs',
-    entryPoints: ['src/main/index.ts', 'src/main/preload.js', 'src/main/solver.ts'],
+    entryPoints: await promisify(glob)('src/main/@(index|preload|solver).[jt]s'),
     loader: {
       '.html': 'file',
     },
